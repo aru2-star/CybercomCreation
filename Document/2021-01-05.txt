@@ -1,0 +1,4 @@
+Learning about git and github
+installing github and creating a account
+creating a new repository, making it public, initially adding readme file
+created a new file using 'touch command'

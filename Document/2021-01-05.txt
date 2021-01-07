@@ -2,3 +2,9 @@ Learning about git and github
 installing github and creating a account
 creating a new repository, making it public, initially adding readme file
 created a new file using 'touch command'
+added to the staging area
+commit the file
+creating another branch
+working with different file
+adding and commiting
+merging to the original

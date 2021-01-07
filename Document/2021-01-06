@@ -2,3 +2,5 @@ Rewriting the history using rebase command
 listing stack order of stashed file changes
 commit history
 viewing all the logs that were committed
+creating fork
+keeping the fork up to date

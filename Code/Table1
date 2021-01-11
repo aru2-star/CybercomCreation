@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table1</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<td rowspan="3">Page1</td>
+			<td>Page3</td>
+		</tr>
+		<tr>
+			<td>Page4</td>
+		</tr>
+		<tr>
+			<td>Page5</td>
+		</tr>
+		<tr>
+			<td colspan="2">Page2</td>
+		</tr>
+	</table>
+</body>
+</html>

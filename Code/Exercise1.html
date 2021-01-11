@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Exercise 2</title>
+</head>
+<body>
+	Hello!
+	<script type="text/javascript">
+		var mark_height = 1.55;
+		var john_height = 1.57;
+
+		var mark_weight = 70;
+		var john_weight = 68;
+
+		function bmi(weight,height){
+			return weight/(height*height);
+		}
+
+		var m_bmi = bmi(mark_weight,mark_height);
+		var j_bmi = bmi(john_weight,john_height);
+
+		console.log("Is Mark's BMI higher than John's?");
+		var result = "false";
+		if(j_bmi > m_bmi){
+			console.log(result);
+		}
+		else{
+			console.log(!result);
+		}
+	</script>
+</body>
+</html>

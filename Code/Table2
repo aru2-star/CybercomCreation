@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table2</title>
+</head>
+<body>
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Favourite Sport or League</th>
+			<th>Favourite Team</th>
+			<th>Favourite Social Media</th>
+		</tr>
+		<tr align="center">
+			<td>Jane Smith</td>
+			<td><a href="www.google.com">FIFA World Cup Soccer</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/Brazil">Brazil</a></td>
+			<td><a href="www.instagram.com">Instagram</a></td>
+		</tr>
+		<tr align="center">
+			<td>Arunshi Gupta</td>
+			<td><a href="www.google.com">National Football League</a></td>
+			<td><a href="https://en.wikipedia.org/wiki/New_Orleans_Saints">New Orleans Saints</a></td>
+			<td><a href="www.reddit.com">Reddit</a></td>
+		</tr>
+		<tr align="center">
+			<th>Total</th>
+			<td>2</td>
+			<td>2</td>
+			<td>2</td>
+		</tr>
+	</table>
+</body>
+</html>

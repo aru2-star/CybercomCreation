@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>####</title>
+</head>
+<body>
+	<table border="1" align="center" width = "400" height = "150">
+<!-- Row A -->
+<tr align="center">
+    <td rowspan="3">1</td>
+    <td rowspan="2">2</td>
+    <td colspan="2">3</td>
+    <td rowspan="3">5</td>
+    <td colspan="2">6</td>
+</tr>
+<tr align="center">
+    <td>3</td>
+    <td>4</td>
+    <td>6</td>
+    <td>7</td>
+</tr>
+<tr align="center">
+    <td colspan="2">2</td>
+    <td>4</td>
+    <td>6</td>
+    <td rowspan="3">7</td>
+</tr>
+<tr align="center">
+    <td>1</td>
+    <td colspan="2">2</td>
+    <td colspan="3">4</td>
+</tr>
+<tr align="center">
+    <td>1</td>
+    <td colspan="2">2</td>
+    <td rowspan="2">4</td>
+    <td colspan="2">5</td>
+</tr>
+<tr align="center">
+    <td>1</td>
+    <td colspan="2">2</td>
+    <td colspan="3">5</td>
+</tr>
+<tr align="center">
+    <td rowspan="5">1</td>
+    <td colspan="2" rowspan="3">2</td>
+    <td>4</td>
+    <td colspan="3">5</td>
+</tr>
+<tr align="center">
+    <td rowspan="4">4</td>
+    <td colspan="3">5</td>
+</tr>
+<tr align="center">
+    <td colspan="3">5</td>
+</tr>
+<tr align="center">
+    <td>2</td>
+    <td>3</td>
+    <td colspan="3">5</td>
+</tr>
+<tr align="center">
+    <td>2</td>
+    <td>3</td>
+    <td colspan="3">5</td>
+</tr>
+<tr align="center">
+    <td>1</td>
+    <td colspan="4">2</td>
+    <td>6</td>
+    <td rowspan="2">7</td>
+</tr>
+<tr align="center">
+    <td colspan="3">1</td>
+    <td>4</td>
+    <td rowspan="2">5</td>
+    <td rowspan="2">6</td>
+</tr>
+<tr align="center">
+    <td colspan="3" rowspan="5">1</td>
+    <td>4</td>
+    <td>7</td>
+</tr>
+<tr align="center">
+    <td>4</td>
+    <td>5</td>
+    <td>6</td>
+    <td>7</td>
+</tr>
+<tr align="center">
+    <td>4</td>
+    <td>5</td>
+    <td rowspan="2" colspan="2">6</td>
+</tr>
+<tr align="center">
+    <td rowspan="3">4</td>
+    <td>5</td>
+</tr>
+<tr align="center">
+    <td rowspan="2">5</td>
+    <td colspan="2">6</td>
+</tr>
+<tr align="center">
+    <td>1</td>
+    <td colspan="2">2</td>
+    <td colspan="2">6</td>
+</tr>
+<tr align="center">
+    <td>1</td>
+    <td colspan="6">2</td>
+</tr>
+</table>
+</body>
+</html>

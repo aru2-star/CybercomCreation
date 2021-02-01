@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Coding Challenge 3</title>
+</head>
+<body>
+  Hello!!!!
+  <script type="text/javascript">
+    var bills = [124, 48, 268];
+
+    function simpleTipCalculator(bill) {
+      var per;
+      if (bill < 50) {
+        per = 20/100;
+      } else if (bill >= 50 && bill < 200) {
+        per = 15/100;
+      } else {
+        per = 10/100;
+      }
+      return per * bill;
+    }
+
+    var tips = [simpleTipCalculator(bills[0]), simpleTipCalculator(bills[1]), simpleTipCalculator(bills[2])];
+
+    var finalPaidAmounts = [bills[0] + tips[0], bills[1] + tips[1], bills[2] + tips[2]];
+
+    console.log(tips);
+    console.log(finalPaidAmounts);
+  </script>
+</body>
+</html>

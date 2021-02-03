@@ -1,0 +1,32 @@
+INTRODUCTION
+-> JavaScript is a lightweight, cross-platform and interpreted scripting language.
+-> It can be used for both CLient-side as well as Server-side Scripting.
+-> Javascirpt is used to make our webpage more lively and interactive.
+-> The main advantage of JavaScript is that all modern web browsers support JavaScript.
+-> Also, JavaScript runs on any operating system.
+
+VARIABLES AND DATATYPES
+-> Allows us to work with the following primitive data types:
+    1. Number : floating point number, for decimals and integers
+    2. Strings : sequence of charactrers used for text
+    3. Boolean : logical data type - takes only true and false
+    4. null : non-existent 
+    5. undefined : variable that doesn't have a value yet
+-> 'var' keyword to define the variable.
+-> JS has dynamic typing : data tyoes are automatically assigned to the variables.
+-> variable names can not start with numbers or symbols except 'underscore(_)' and 'dollar($)'.
+-> must start with letter.
+-> can not use reserved keywords as variable names.
+
+OPERATORS
+-> makes use of different kinds of operators.
+-> They include : 
+    1. Arithmetic
+    2. Logical
+    3. Comparison
+    4. Assignment
+    5. Conditional, etc.
+    
+typeof Operator
+-> The typeof operator is a unary operator that is placed before its single operand, which can be of any type. Its value is a string indicating the data type of the operand.
+-> The typeof operator evaluates to "number", "string", or "boolean" if its operand is a number, string, or boolean value and returns true or false based on the evaluation.

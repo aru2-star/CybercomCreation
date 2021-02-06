@@ -53,7 +53,7 @@ function loginUser() {
 
 }
 
-function login() {
+function logging() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
 

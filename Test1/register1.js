@@ -31,8 +31,6 @@ function addUser() {
                 alert("Admin already registered");
                 break;
             }
-            else {
-            }
         }
     }
     register();

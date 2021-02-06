@@ -3,7 +3,7 @@ var local;
 var flag = false;
 
 
-function login() {
+function logging() {
     var email = document.getElementById('email').value;
     var password = document.getElementById('password').value;
 

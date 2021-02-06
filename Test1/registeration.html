@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <form action="login.html">
+        <div style="margin-left : auto; margin-right: auto; height: 70%; width: 35%; border: solid; border-color: black; color: gray ; font-size: 15px; padding-bottom: 50px;">
+            <h1 align="center" style="color: black;">Register</h1>
+
+            <div style="display: flex; flex-direction: column; padding-top: 11px; margin-left: auto; margin-right: auto; margin-top: 10px; margin-bottom: 10px; width: 200px; height: 20px;">
+                <input type="text" id="name" name="name" placeholder="Name" required/> <br>
+            
+                <input type="email" id="email" name="email" placeholder="Email" required /> <br>
+            
+                <input type="password" id="password" name="password" placeholder="Password" required /> <br>
+            
+                <input type="password" id="confirm_password" name="confirm_password"
+                    placeholder="Confirm Password" required /> <br>
+            </div>
+
+            <div style="display: flex; flex-direction: column; padding-top: 100px; margin: auto; margin-top: 35px; margin-bottom: 10px; width: 210px; height: 20px;">
+                <select required id="city" style="width: 210px; height: 28px; margin: auto;" name="city">
+                    <option value="Choose a value" selected>Select City</option>
+                    <option value="Amravati">Amravati</option>
+                    <option value="Itanagar">Itanagar</option>
+                    <option value="Dispur">Dispur</option>
+                    <option value="Patna">Patna</option>
+                    <option value="Chandigarh">Chandigarh</option>
+                    <option value="Raipur">Raipur</option>
+                    <option value="Delhi">Delhi</option>
+                    <option value="Panaji">Panaji</option>
+                    <option value="Gandhinagar">Gandhinagar</option>
+                    <option value="Shimla">Shimla</option>
+                </select required>
+            </div>
+            <div style="display: flex; flex-direction: column; margin: auto; margin-top: 20px; margin-bottom: 10px; width: 210px; height: 20px;">
+                <select required id="state" style="width: 210px; height: 28px; margin: auto;" name="state">
+                    <option value="Choose a value" selected>Select State</option>
+                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                    <option value="Assam">Assam</option>
+                    <option value="Bihar">Bihar</option>
+                    <option value="Chhattisgarh">Chhattisgarh</option>
+                    <option value="Goa">Goa</option>
+                    <option value="Gujarat">Gujarat</option>
+                    <option value="Haryana">Haryana</option>
+                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                </select> <br>
+            </div>
+
+            <div align="center">
+                <input style="width: 20px; height: 15px;" type="checkbox" id="terms" name="terms" value="Terms and Conditions" onchange="document.getElementById('submit').disabled = !this.checked;">
+                <label for="agree" style="margin-right: 60px;"> Terms & Conditions</label>
+            </div> <br>
+
+            <input style="margin-left: 180px;" type="submit" disabled="disabled" name="submit" id="submit" value="REGISTER" onclick="addUser();" />
+
+        </div>
+    </form>
+</body>
+
+<script src="register.js"></script>
+
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>USER FORM 1</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+			<table width="500px" align="center" border="1">
+				<tr bgcolor="lightyellow">
+					<th colspan="2" style="color: red; font-size: 25px">User Form</th>
+				</tr>
+				 <tr bgcolor="skyblue">
+                    <td>Enter Name</td> <td> <input style="background-color: lightgreen; width: 180px" type="text"/> </td>
+                </tr>
+
+                <tr bgcolor="skyblue">
+                    <td>Enter Password</td> <td> <input style="background-color: lightgreen" type="text"/> </td>
+                </tr>
+                
+                <tr bgcolor="skyblue">
+                    <td>Enter Address</td> <td> <textarea style="background-color: lightgreen" rows="4"></textarea> </td>
+                </tr>
+
+                <tr bgcolor="skyblue">
+                    <td>Select Game</td> 
+                    <td><input type="checkbox" id="game1" name="game1" value="Hockey">
+  						<label for="game1"> Hockey</label><br>
+  						<input type="checkbox" id="game2" name="game2" value="Football">
+				  		<label for="game2"> Football</label><br>
+  						<input type="checkbox" id="game3" name="game3" value="Badminton">
+  						<label for="game3"> Badminton</label><br>
+  						<input type="checkbox" id="game4" name="game4" value="Cricket">
+  						<label for="game4">Cricket</label><br>
+  						<input type="checkbox" id="game5" name="game5" value="Volleyball">
+  						<label for="game5">Volleyball</label><br>
+  					</td> 
+                </tr>
+                <tr bgcolor="skyblue">
+                	<td>Gender</td>
+                	<td><input type="radio" id="male" name="gender" value="male">
+  						<label for="male">Male</label>
+  						<input type="radio" id="female" name="gender" value="female">
+  						<label for="female">Female</label></td>
+                </tr>
+                <tr bgcolor="skyblue">
+                	<td>Select your age</td>
+                	<td>
+                		<select id="select" name="select">
+                			<option>select</option>
+                        <option value="0 to 9 Years">0 to 9 Years</option>
+                        <option value="10 to 19 Years">10 to 19 Years</option>
+                        <option value="20 to 29 Years">20 to 29 Years</option>
+                        <option value="30 to 39 Years">30 to 39 Years</option>
+                    	</select>
+                	</td>
+                </tr>
+                <tr bgcolor="skyblue">
+                	<td align="center" colspan="2">
+                		<input type="file" style="background-color: lightgreen" />
+                	</td>
+                </tr>
+                <tr bgcolor="skyblue">
+                	<td align="center" colspan="2">
+                		<input type="submit" name="submit" value="submit" style="margin-right:25px; background-color: lightgreen" />
+
+    
+    					<input type="reset" name="reset" value="reset" style="background-color: lightgreen" />
+                	</td>
+                </tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html>

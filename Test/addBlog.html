@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Add New Blog</title>
+</head>
+<body>
+	<form action="addBlog.php" method="post" name="form1">
+		<table>
+			<tr>
+				<td>Title</td>
+				<td><textarea name="title" rows="2" cols="80"></textarea></td>
+			</tr>
+			<tr>
+				<td>Content</td>
+				<td><textarea name="content" rows="10" cols="80"></textarea></td>
+			</tr>
+			<tr>
+				<td>URL</td>
+				<td><textarea name="url" rows="2" cols="80"></textarea></td>
+			</tr>
+			<tr>
+				<td>Published At</td>
+				<td><input type="datetime-local" id="date" name="date"></td>
+			</tr>
+			<tr>
+				<td>Parent Category</td>
+				<td><select name="category" id="category">
+						<option> </option>
+  						<option value="1">Lifestyle</option>
+  						<option value="2">Health</option>
+  						<option value="3">Education</option>
+  						<option value="4">Music</option>
+  					</select></td>
+			</tr>
+			<tr>
+				<td>Image</td>
+				<td><input type="file" id="img" name="img"></td>
+			</tr>
+		</table>
+		<input type="submit" name="submit" value="Submit">
+	</form>
+</body>
+</html>

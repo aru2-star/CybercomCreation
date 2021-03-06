@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HTML_Practice_7</title>
+	<style type="text/css">
+		.bold
+{
+    font-weight: bold;
+}
+input[type="submit"] 
+{
+    margin-top: 10px;
+}
+
+input[type="reset"]
+{
+    margin-top: 10px;
+}
+
+	</style>
+</head>
+<body>
+	<form action="success.html">
+		<fieldset>
+			<legend>Your Address</legend>
+			<table>
+                <tr>
+                    <td>First Name</td> <td> <input type="text"/> </td>
+                </tr>
+
+                <tr>
+                    <td>Last Name</td> <td> <input  type="text"/> </td>
+                </tr>
+                
+                <tr>
+                    <td>Street</td> <td> <input  type="text"/> </td>
+                </tr>
+
+                <tr>
+                    <td>City</td> <td><input type="text"/> </td> 
+                </tr>
+            </table>
+		</fieldset>
+		<br>
+
+		<fieldset>
+			<legend>Additional details</legend>
+
+        <table>
+            
+            <tr>
+                <td>Biography</td> <td><textarea rows="4"></textarea></td>
+            </tr>
+
+            <tr>
+                <td>Image</td><td><input type="file"/></td>
+            </tr>
+            
+            <tr>
+                <td>Age Group</td>
+                <td> 
+                    <select id="AgeGroup" name="AgeGroup">
+                        <option value="0 to 9 Years">0 to 9 Years</option>
+                        <option value="10 to 19 Years">10 to 19 Years</option>
+                        <option value="20 to 29 Years">20 to 29 Years</option>
+                        <option value="30 to 39 Years">30 to 39 Years</option>
+                        <option value="40 to 49 Years">40 to 49 Years</option>
+                        <option value="50 to 59 Years">50 to 59 Years</option>
+                        <option value="60 to 69 Years">60 to 69 Years</option>
+                        <option value="70 to 79 Years">70 to 79 Years</option>
+                        <option value="80 to 89 Years">80 to 89 Years</option>
+                        <option value="90 to 100 Years">90 to 100 Years</option>
+                    </select>    
+                </td>
+            </tr>
+        </table>
+		</fieldset>
+
+    <br>
+
+    <fieldset>
+        <legend>Interests</legend>
+
+        <table>
+            <tr>
+                <td>Hobbies</td><td><textarea  >Playing soccer     Dancing       Gardening     Watching Movies</textarea></td>
+            </tr>
+
+            <tr>
+                <td>Favourite car?</td>
+                <td>
+                    <select  id="FavouriteCar" name="FavouriteCar">
+                        <option value="Volvo">Volvo</option>
+                        <option value="BMW">BMW</option>
+                        <option value="Rolls Royce">Rolls Royce</option>
+                        <option value="Mercedes">Mercedes</option>
+                        <option value="Audi">Audi</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Favourite public transport?</td>
+                <td><textarea id= "favTransport" >Ground                 Train  Bus                        water</textarea> </td>
+            </tr>
+        </table>
+    </fieldset>
+
+<br>
+    <input type="submit" name="submit" value="submit" style="margin-right:25px" />
+
+    
+    <input type="reset" name="reset" value="reset"/>
+	</form>
+</body>
+</html>

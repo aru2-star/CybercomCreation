@@ -1,0 +1,30 @@
+*Git Merge
+
+# git merge [BRANCH_NAME] (If you have a branch named FEATURE, and you have to merge it into the master branch,
+Then, use merge command. First switch into the master branch using "git checkout master" and then type merge command.)
+# git checkout -b [BRANCH_NAME] (Create a new branch and Automatically switched into that branch)
+# git show (Show the logs of files)
+# git show [PARTICULAR ID] (use the git log command and copy the ID)
+
+
+
+* Git Rebase
+
+# git rebase [BRANCH_NAME]
+# git pull --rebase origin/[BRANCH_NAME]
+# git rebase --continue
+# git remote show (Show the name of the aliase)
+# git ls-remote (Show the proper remote details with all branches)
+# git rebase [BRANCH_NAME] (First chane gomething in any branch, then ass and commit it. then try to rebase it. It is simply rebase the branches and copy the code from one branch to another.)
+
+
+
+*SHARE & UPDATE
+Retrieving updates from another repository and updating local repos
+
+
+git remote add [alias] [url] - add a git URL as an alias
+git fetch [alias] - fetch down all the branches from that Git remote
+git merge [alias]/[branch] - merge a remote branch into your current branch to bring it up to date
+git push [alias] [branch] - Transmit local branch commits to the remote repository branch
+git pull - fetch and merge any commits from the tracking remote branch

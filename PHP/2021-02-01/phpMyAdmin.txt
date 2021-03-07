@@ -1,0 +1,20 @@
+-> phpMyAdmin is a PHP script meant for giving users the ability to interact with their MySQL databases. 
+-> WordPress stores all of its information in the MySQL database 
+-> It interacts with the database to generate information within the WordPress site. 
+-> A raw view of the data, tables and fields stored in the MySQL database is accessible through phpMyAdmin.
+-> The phpMyAdmin program is handy for performing maintenance operations on tables, backing up information, and editing things directly in the event.
+-> phpMyAdmin is a free and open source administration tool for MySQL. 
+-> As a portable web application written primarily in PHP, it has become one of the most popular MySQL administration tools.
+-> phpMyAdmin supports several features that are given below:
+       ` phpMyAdmin can create, alter, browse, and drop databases, views, tables, columns, and indexes.
+       ` It can display multiple results sets through queries and stored procedures.
+       ` phpMyAdmin use stored procedure and queries to display multiple results sets.
+       ` It supports foreign keys and InnoDB tables. 
+       ` phpMyAdmin can track the changes done on databases, views, and tables.
+       ` We can also create PDF graphics of our database layout.
+       ` phpMyAdmin can be exported into various formats such as XML, CSV, PDF, ISO/IEC 26300 - OpenDocument Text and Spreadsheet.
+       ` It supports mysqli, which is the improved MySQL extension.
+       ` phpMyAdmin can interact with 80 different languages.
+       ` phpMyAdmin can edit, execute, and bookmark any SQL-statements and even batch-queries.
+       ` By using a set of pre-defined functions, it can transform stored data into any format. For example - BLOB-data as image or download-link.
+       ` It provides the facility to backup the database into different forms.

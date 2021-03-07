@@ -1,0 +1,26 @@
+1) fopen() – PHP fopen() function is used to open a file.
+    <?php 
+      $file = fopen(“demo.txt”,'w'); 
+    ?>
+
+2) fread() –– After file is opened using fopen() the contents of data are read using fread().
+    <?php 
+      $filename = "demo.txt"; 
+      $file = fopen( $filename, 'r' ); 
+      $size = filesize( $filename ); 
+      $filedata = fread( $file, $size ); 
+    ?> 
+    
+3) fwrite() – New file can be created or text can be appended to an existing file using fwrite() function.
+    <?php 
+      $file = fopen("demo.txt", 'w'); 
+      $text = "Hello world\n"; 
+      fwrite($file, $text); 
+    ?>
+    
+4) fclose() – file is closed using fclose() function.
+    <?php 
+      $file = fopen("demo.txt", 'r'); 
+      //code 
+      fclose($file); 
+    ?>
